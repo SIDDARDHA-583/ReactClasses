@@ -11,7 +11,7 @@ const UseStateMulti = () => {
 
     const Save = () => {
 
-        if(userid == -1){
+        if(userid === -1){
             let newuser = {
                 name : newname ,
                 age : newage ,

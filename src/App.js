@@ -24,6 +24,7 @@ import Task from './FunctionComponent/Task1';
 import UseStateMulti from './FunctionComponent/UseStateMulti';
 import Experience from './FunctionComponent/Experience';
 import UseParams from './FunctionComponent/UseParam';
+import UseParams2 from './FunctionComponent/UseParams2';
 
 
 
@@ -54,7 +55,8 @@ function App() {
         <Route exact path="/task" component={Task}/>
         <Route exact path="/usestatemulti" component={UseStateMulti} />
         <Route exact path="/experience" component={Experience} />
-        <Route exact path="/:id/useparams" component={UseParams}/> 
+        <Route exact path="/:id/:name/useparams" component={UseParams}/> 
+        <Route exact path="/:index/useparams2" component={UseParams2}/>
    </HashRouter>
   );
 }

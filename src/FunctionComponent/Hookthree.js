@@ -7,7 +7,7 @@ const HookThree = () => {
 
 
    const Save = () => {
-      if(bookid == -1){
+      if(bookid === -1){
            //let newbook = prompt("Enter Book Name")
        updatedbooks(books => [...books,newbook])
        //a = a + b

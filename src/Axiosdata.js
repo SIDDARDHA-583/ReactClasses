@@ -1,4 +1,6 @@
 import React , {Component} from 'react'
+import {Link} from 'react-router-dom'
+
 import axios from 'axios' // 2nd API to send and recieve data from server.
 
 class Axiosdata extends Component{
@@ -103,7 +105,9 @@ class Axiosdata extends Component{
                                         return(
                                             <tr key={index} className="text-center">
                                                 <td>{record.id}</td>
-                                                <td>{record.name}</td>
+                                                <td>
+                                                    <Link to={`/${record.mobile}/${record.name}/useparams`}>{record.name}</Link>
+                                                </td>
                                                 <td>{record.mobile}</td>
                                                 <td>{record.email}</td>
                                             </tr>

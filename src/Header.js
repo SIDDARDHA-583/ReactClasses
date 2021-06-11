@@ -50,9 +50,7 @@ const Header = () => {
                         <li className="nav-item">
                             <Link className="nav-link" to="/fetchmulti">FetchMulti</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/axios">Axiosdata</Link>
-                        </li>
+                       
                         <li className="nav-item">
                             <Link className="nav-link" to="/shopping">Routing2</Link>
                         </li> */}
@@ -75,7 +73,13 @@ const Header = () => {
                             <Link className="nav-link" to="/experience">Experience</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/1998/useparams">Hook-5</Link>
+                            <Link className="nav-link" to="/1998/siddu/useparams">useparams</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/0/useparams2">UseParams2</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/axios">Axiosdata</Link>
                         </li>
                     </ul>
                 </div>
