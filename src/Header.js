@@ -81,6 +81,18 @@ const Header = () => {
                         <li className="nav-item">
                             <Link className="nav-link" to="/axios">Axiosdata</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/useEffect">UseEffect</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/props">Props</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/validation">Validation</Link>
+                        </li>
+                       {/* <li className="nav-item">
+                            <Link className="nav-link" to="/userinfo">userinfo</Link>
+                    </li>*/}
                     </ul>
                 </div>
             </nav>

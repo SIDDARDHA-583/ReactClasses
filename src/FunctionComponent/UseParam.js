@@ -11,6 +11,7 @@ function UseParams(){
                     <h2>useParams() Hooks Example</h2>
                     <h1 className="text-danger">Your Id is: {id}</h1>
                     <p>{name}</p>
+                    
                 </div>
             </div>
         </div>

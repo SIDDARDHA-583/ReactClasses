@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import UserInfo from './UserInfo';
 
 const UseStateExample = () => {
     //  const[variable , function] = useState(default value for a Variable) 
@@ -25,6 +26,10 @@ const UseStateExample = () => {
                     <button className="btn btn-success rounded-pill" onClick={plus}>Click To + by 5</button>
                     <button className="btn btn-warning rounded-pill" onClick={minus}>Click To - by 5</button>
                 </div>
+               
+                <UserInfo  fullname="siddu" pic="3.jpg" Phone="9010090363" Age="21" City="Bangalore"/>
+                <UserInfo  fullname="silpa" pic="2.jpg" Phone="9010090363" Age="20" City="Venkatagiri"/>
+            
             </div>
         </div>
     )

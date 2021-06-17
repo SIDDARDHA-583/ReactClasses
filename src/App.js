@@ -25,6 +25,10 @@ import UseStateMulti from './FunctionComponent/UseStateMulti';
 import Experience from './FunctionComponent/Experience';
 import UseParams from './FunctionComponent/UseParam';
 import UseParams2 from './FunctionComponent/UseParams2';
+import UseEffect from './FunctionComponent/UseEffect';
+import Product from './FunctionComponent/Props';
+import FormValidation from './Validation';
+//import UserInfo from './FunctionComponent/UserInfo';
 
 
 
@@ -57,6 +61,10 @@ function App() {
         <Route exact path="/experience" component={Experience} />
         <Route exact path="/:id/:name/useparams" component={UseParams}/> 
         <Route exact path="/:index/useparams2" component={UseParams2}/>
+        <Route exact path="/useeffect" component={UseEffect} />
+        <Route exact path="/props" component={Product} />
+        {/*<Route exact path="/userinfo" component={UserInfo} /> */}
+        <Route exact path="/validation" component={FormValidation} />
    </HashRouter>
   );
 }
