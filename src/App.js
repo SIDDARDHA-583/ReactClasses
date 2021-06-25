@@ -28,6 +28,16 @@ import UseParams2 from './FunctionComponent/UseParams2';
 import UseEffect from './FunctionComponent/UseEffect';
 import Product from './FunctionComponent/Props';
 import FormValidation from './Validation';
+import OnSubmit from './Practise/OnSubmit';
+import LoginForm from './Practise/LoginForm';
+import Signup from './Practise/Signup';
+import Calculator from './Practise/Calculator';
+import UseEffectFetch from './Practise/UseEffectFetch';
+import UseHistory from './Practise/UseHistory';
+import UseContext from './Practise/UseContext';
+import Email from './Practise/Email';
+import FilterMethod from './Practise/FilterMethod';
+
 //import UserInfo from './FunctionComponent/UserInfo';
 
 
@@ -65,6 +75,18 @@ function App() {
         <Route exact path="/props" component={Product} />
         {/*<Route exact path="/userinfo" component={UserInfo} /> */}
         <Route exact path="/validation" component={FormValidation} />
+
+
+        {/**Practise Section */}
+        <Route exact path="/onsubmit" component={OnSubmit} />
+        <Route exact path="/loginform" component={LoginForm} />
+        <Route exact path="/signup" component={Signup} />
+        <Route exact path="/calculator" component={Calculator} />
+        <Route exact path="/useeffectfetch" component={UseEffectFetch} />
+        <Route exact path="/usehistory" component={UseHistory} />
+        <Route exact path="/usecontext" component={UseContext} />
+        <Route exact path="/email" component={Email} />
+        <Route exact path="/filter" component={FilterMethod} />
    </HashRouter>
   );
 }

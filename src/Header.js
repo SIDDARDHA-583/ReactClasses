@@ -54,7 +54,9 @@ const Header = () => {
                         <li className="nav-item">
                             <Link className="nav-link" to="/shopping">Routing2</Link>
                         </li> */}
-                        <li className="nav-item">
+
+                        
+                        {/* <li className="nav-item">
                             <Link className="nav-link" to="/usestate">UseState</Link>
                         </li>
                         <li className="nav-item">
@@ -92,7 +94,35 @@ const Header = () => {
                         </li>
                        {/* <li className="nav-item">
                             <Link className="nav-link" to="/userinfo">userinfo</Link>
-                    </li>*/}
+                    </li>*/} 
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/onsubmit">OnSUbmit</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/loginform">LoginForm</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/signup">Signup</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/Calculator">Calculator</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/useeffectfetch">UseEffectFetch</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/usehistory">UseHistory</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/usecontext">UseContext</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/email">Email</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/filter">Filter</Link>
+                        </li>
+
                     </ul>
                 </div>
             </nav>
